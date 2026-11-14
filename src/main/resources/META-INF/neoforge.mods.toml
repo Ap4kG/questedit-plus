@@ -1,0 +1,61 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+
+[[mods]]
+modId="questeditplus"
+version="${file.jarVersion}"
+displayName="Quest Editor Plus"
+authors="Ap4k"
+description='''
+Editing QoL for the FTB Quests quest book (client-side):
+- Alt + LMB drag: create/remove dependencies (works with multi-selection)
+- Ctrl + mouse wheel: resize quests / chapter images
+- Alt + mouse wheel: cycle quest shapes
+- Middle-click move: quests follow the cursor with live dependency lines
+- Magnetic alignment guides while moving
+- Arrow keys: nudge selection (Shift for fine steps)
+- Alt + LMB click: open the edit menu
+'''
+
+[[dependencies.questeditplus]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.0,)"
+ordering="NONE"
+side="CLIENT"
+
+[[dependencies.questeditplus]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1,)"
+ordering="NONE"
+side="CLIENT"
+
+[[dependencies.questeditplus]]
+modId="ftbquests"
+type="required"
+versionRange="[2101.1.38,)"
+ordering="AFTER"
+side="CLIENT"
+
+[[dependencies.questeditplus]]
+modId="ftblibrary"
+type="required"
+versionRange="[2101.1.39,)"
+ordering="AFTER"
+side="CLIENT"
+
+[[dependencies.questeditplus]]
+modId="ftbteams"
+type="required"
+versionRange="[2101.1.12,)"
+ordering="AFTER"
+side="CLIENT"
+
+[[dependencies.questeditplus]]
+modId="architectury"
+type="required"
+versionRange="[13.0.11,)"
+ordering="AFTER"
+side="CLIENT"

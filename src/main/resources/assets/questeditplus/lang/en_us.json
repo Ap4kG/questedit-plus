@@ -1,0 +1,8 @@
+{
+  "questeditplus.hint.drag": "Alt+LMB: drag to another quest to link a dependency. Release on the same quest to edit. RMB/Esc to cancel.",
+  "questeditplus.toast.dep_added": "Dependency added",
+  "questeditplus.toast.dep_removed": "Dependency removed",
+  "questeditplus.toast.loop": "That would create a dependency loop",
+  "questeditplus.toast.dep_added.desc": "%s now requires %s",
+  "questeditplus.toast.dep_removed.desc": "%s no longer requires %s"
+}

@@ -1,0 +1,8 @@
+{
+  "questeditplus.hint.drag": "Alt+ЛКМ: тяните к квесту — создать зависимость. Отпустите на нём же — редактировать. ПКМ/Esc — отмена.",
+  "questeditplus.toast.dep_added": "Зависимость добавлена",
+  "questeditplus.toast.dep_removed": "Зависимость удалена",
+  "questeditplus.toast.loop": "Нельзя: получился цикл зависимостей",
+  "questeditplus.toast.dep_added.desc": "%s требует %s",
+  "questeditplus.toast.dep_removed.desc": "%s больше не требует %s"
+}
